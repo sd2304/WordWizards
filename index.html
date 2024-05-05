@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <link rel="stylesheet" href="./css/game.css">
+</head>
+<body>
+    <audio src="./audio/enter.mp3" autoplay></audio>
+    <div class="scene">
+        <div class="shadow"></div>
+        <div class="jumper">
+          <div class="spinner">
+            <div class="scaler">
+              <div class="loader">
+                <div class="cuboid">
+                  <div class="cuboid__side"></div>
+                  <div class="cuboid__side"></div>
+                  <div class="cuboid__side"></div>
+                  <div class="cuboid__side"></div>
+                  <div class="cuboid__side"></div>
+                  <div class="cuboid__side"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        // Add JavaScript code to redirect to the game page after a delay
+        setTimeout(function() {
+            window.location.href = "./game.html"; // Change "game.html" to your actual game page
+        }, 4500); // Adjust the delay time as needed
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
